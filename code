@@ -52,5 +52,5 @@ def predict_news(news):
     prediction = model.predict(news_vectorized)
     return "real" if prediction[0] == 1 else "fake"
 
-print(predict_news("trump becomes president"))
+print(predict_news("sreekandan becomes president"))
 print(predict_news("NASA finds life on moon"))
